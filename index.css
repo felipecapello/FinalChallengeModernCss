@@ -20,7 +20,7 @@
   padding-top: 10px;
   padding-left: 10px;
 }
-.logo {
+.logoheader {
   width: 200px;
   padding-top: 10px;
 }
@@ -35,4 +35,79 @@
 }
 .buttonheader:hover {
   border-bottom: 2px solid white;
+}
+.bemvindo {
+  font-size: 30px;
+  text-align: center;
+}
+.main-content {
+  flex: 1 0 auto;
+  display: grid;
+  gap: 20px 15px;
+  padding: 100px 150px;
+  max-width: 450px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "item1 item2 item3"
+    "item4 item5 item6"
+    "item7 item8 item9";
+}
+.footer {
+  background-color: black;
+  display: flex;
+  flex-direction: line;
+  justify-content: space-between;
+}
+.logofoooter {
+  width: 200px;
+  padding: 10px 10px 10px 10px;
+}
+.voltartopo {
+  font-size: 30px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.item {
+  width: 450px;
+  font-size: 30px;
+  border: 2px ridge black;
+}
+.item img {
+  width: 445px;
+  height: auto;
+}
+
+.item1 {
+  grid-area: item1;
+}
+.item2 {
+  grid-area: item2;
+}
+
+.item3 {
+  grid-area: item3;
+}
+
+.item4 {
+  grid-area: item4;
+}
+
+.item5 {
+  grid-area: item5;
+}
+
+.item6 {
+  grid-area: item6;
+}
+
+.item7 {
+  grid-area: item7;
+}
+
+.item8 {
+  grid-area: item8;
+}
+
+.item9 {
+  grid-area: item9;
 }
